@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_71WzUF45Eeu5poB1TV7a6w" name="test">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_75YXsF45Eeu5poB1TV7a6w">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_n3hOAF8MEeuNiq_Pl_cZxw" name="System" useCase="_xEXYEF8MEeuNiq_Pl_cZxw _W_BxcF8NEeuNiq_Pl_cZxw _hYA-gF8NEeuNiq_Pl_cZxw _jI9XsF8NEeuNiq_Pl_cZxw _u4wmsF8NEeuNiq_Pl_cZxw _w18sIF8NEeuNiq_Pl_cZxw">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_xEXYEF8MEeuNiq_Pl_cZxw" name="Manage users" subject="_n3hOAF8MEeuNiq_Pl_cZxw"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_W_BxcF8NEeuNiq_Pl_cZxw" name="Manage users" subject="_n3hOAF8MEeuNiq_Pl_cZxw"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_hYA-gF8NEeuNiq_Pl_cZxw" name="Create user" subject="_n3hOAF8MEeuNiq_Pl_cZxw">
+      <generalization xmi:type="uml:Generalization" xmi:id="_k8RIYF8NEeuNiq_Pl_cZxw" general="_W_BxcF8NEeuNiq_Pl_cZxw"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_jI9XsF8NEeuNiq_Pl_cZxw" name="Delete user" subject="_n3hOAF8MEeuNiq_Pl_cZxw">
+      <generalization xmi:type="uml:Generalization" xmi:id="_lkEIMF8NEeuNiq_Pl_cZxw" general="_W_BxcF8NEeuNiq_Pl_cZxw"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_u4wmsF8NEeuNiq_Pl_cZxw" name="Mange users" subject="_n3hOAF8MEeuNiq_Pl_cZxw"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_w18sIF8NEeuNiq_Pl_cZxw" name="create user" subject="_n3hOAF8MEeuNiq_Pl_cZxw">
+      <generalization xmi:type="uml:Generalization" xmi:id="_zYBAQF8NEeuNiq_Pl_cZxw" general="_u4wmsF8NEeuNiq_Pl_cZxw"/>
+    </ownedUseCase>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_v5KJMF8MEeuNiq_Pl_cZxw" name="" type="_n3hOAF8MEeuNiq_Pl_cZxw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_1P8nsF8MEeuNiq_Pl_cZxw" name="" type="_yd1FYF8MEeuNiq_Pl_cZxw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_6-PnQF8MEeuNiq_Pl_cZxw" name="" type="_n3hOAF8MEeuNiq_Pl_cZxw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_7T-msF8MEeuNiq_Pl_cZxw" name="" type="_xEXYEF8MEeuNiq_Pl_cZxw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_7lkF8F8MEeuNiq_Pl_cZxw" name="" type="_n3hOAF8MEeuNiq_Pl_cZxw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_7uweMF8MEeuNiq_Pl_cZxw" name="" type="_n3hOAF8MEeuNiq_Pl_cZxw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8281UF8MEeuNiq_Pl_cZxw" name="" type="_n3hOAF8MEeuNiq_Pl_cZxw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9Ho8sF8MEeuNiq_Pl_cZxw" name="" type="_n3hOAF8MEeuNiq_Pl_cZxw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_KeVRAF8NEeuNiq_Pl_cZxw" name="" type="_xEXYEF8MEeuNiq_Pl_cZxw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_MSy4QV8NEeuNiq_Pl_cZxw" name="" type="_n3hOAF8MEeuNiq_Pl_cZxw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_TAuI0V8NEeuNiq_Pl_cZxw" name="" type="_n3hOAF8MEeuNiq_Pl_cZxw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_UmB5wF8NEeuNiq_Pl_cZxw" name=""/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cMps4F8NEeuNiq_Pl_cZxw" name="" type="_n3hOAF8MEeuNiq_Pl_cZxw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_iXA9YV8NEeuNiq_Pl_cZxw" name="" type="_hYA-gF8NEeuNiq_Pl_cZxw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_pmkUUV8NEeuNiq_Pl_cZxw" name="" type="_n3hOAF8MEeuNiq_Pl_cZxw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qA-_cF8NEeuNiq_Pl_cZxw" name="" type="_W_BxcF8NEeuNiq_Pl_cZxw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qBKloF8NEeuNiq_Pl_cZxw" name="" type="_hYA-gF8NEeuNiq_Pl_cZxw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qBWy4V8NEeuNiq_Pl_cZxw" name="" type="_jI9XsF8NEeuNiq_Pl_cZxw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_s0_YIF8NEeuNiq_Pl_cZxw" name="" type="_n3hOAF8MEeuNiq_Pl_cZxw"/>
+    <nestedClassifier xmi:type="uml:Actor" xmi:id="_yd1FYF8MEeuNiq_Pl_cZxw" name="Admin"/>
+    <nestedClassifier xmi:type="uml:Actor" xmi:id="_0Z_aoF8NEeuNiq_Pl_cZxw" name="Admin"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_7T9YkF8MEeuNiq_Pl_cZxw" name="" represents="_7T-msF8MEeuNiq_Pl_cZxw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_KeUC4F8NEeuNiq_Pl_cZxw" name="" represents="_KeVRAF8NEeuNiq_Pl_cZxw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_UmBSsF8NEeuNiq_Pl_cZxw" name="" represents="_UmB5wF8NEeuNiq_Pl_cZxw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_iXA9YF8NEeuNiq_Pl_cZxw" name="" represents="_iXA9YV8NEeuNiq_Pl_cZxw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_qA-YYF8NEeuNiq_Pl_cZxw" name="" represents="_qA-_cF8NEeuNiq_Pl_cZxw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_qBJ-kF8NEeuNiq_Pl_cZxw" name="" represents="_qBKloF8NEeuNiq_Pl_cZxw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_qBWy4F8NEeuNiq_Pl_cZxw" name="" represents="_qBWy4V8NEeuNiq_Pl_cZxw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_2wE9sF8MEeuNiq_Pl_cZxw" name="Admin manages users" memberEnd="_2wHZ8F8MEeuNiq_Pl_cZxw _2wIBAF8MEeuNiq_Pl_cZxw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2wGL0F8MEeuNiq_Pl_cZxw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2wGL0V8MEeuNiq_Pl_cZxw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2wHZ8F8MEeuNiq_Pl_cZxw" name="manage users" type="_xEXYEF8MEeuNiq_Pl_cZxw" association="_2wE9sF8MEeuNiq_Pl_cZxw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2wIBAF8MEeuNiq_Pl_cZxw" name="admin" type="_yd1FYF8MEeuNiq_Pl_cZxw" association="_2wE9sF8MEeuNiq_Pl_cZxw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5h8y8F8NEeuNiq_Pl_cZxw" memberEnd="_5h9aAl8NEeuNiq_Pl_cZxw _5h9aA18NEeuNiq_Pl_cZxw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5h9aAF8NEeuNiq_Pl_cZxw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5h9aAV8NEeuNiq_Pl_cZxw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5h9aAl8NEeuNiq_Pl_cZxw" name="mange users" type="_u4wmsF8NEeuNiq_Pl_cZxw" association="_5h8y8F8NEeuNiq_Pl_cZxw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5h9aA18NEeuNiq_Pl_cZxw" name="admin" type="_0Z_aoF8NEeuNiq_Pl_cZxw" association="_5h8y8F8NEeuNiq_Pl_cZxw"/>
+  </packagedElement>
+</uml:Model>
